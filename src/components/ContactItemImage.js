@@ -9,7 +9,7 @@ const ContactItemImage = ({ imageUrl }) => {
     );
 }
 
-ContactItemImage.prototype = {
+ContactItemImage.propTypes = {
     imageUrl: PropTypes.string.isRequired,
 }
  
